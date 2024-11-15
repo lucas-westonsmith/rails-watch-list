@@ -32,7 +32,7 @@ gem "bootstrap", "~> 5.2"
 gem "font-awesome-sass", "~> 6.1"
 gem "autoprefixer-rails"
 gem "cloudinary"
-gem "dotenv-rails"
+gem 'dotenv-rails', groups: [:development, :test]
 
 
 # Use Redis adapter to run Action Cable in production
